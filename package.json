@@ -1,16 +1,17 @@
 {
-  "name": "alexa-bot",
-  "version": "1.2.0",
-  "description": "Uma alexa, só que em forma de robô do Discord",
+  "name": "alexa",
+  "version": "2.3.1",
+  "description": "Minha inteligência artificial poxa",
   "main": "index.js",
   "scripts": {
-    "start": "node index.jss",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "alexa-bot-api": "^0.1.4",
+    "derieri": "0.0.1",
     "discord.js": "^12.4.1"
   }
 }
