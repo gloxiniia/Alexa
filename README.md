@@ -9,4 +9,4 @@ Bem, é como se fosse uma inteligência artificial, ela responde suas mensagens,
 [![Stack Lab](https://img.shields.io/discord/754530982006095923?label=StackLab&logo=StackLab)](https://discord.gg/5dfNsV7KNf) <br/>
 
 # Pessoas especiais
-Agradeço aos usuários: [JR](https://github.com/joaorceschini) & [yng](https://github.com/sir-young) por existirem!
+Agradeço aos usuários: [JR](https://github.com/joaorceschini) & [yng](https://github.com/sir-young) por existirem, amigos!
