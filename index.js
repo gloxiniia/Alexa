@@ -1,6 +1,7 @@
 let Discord = require('discord.js');
 let client = new Discord.Client();
-const deri = require('derieri');
+const Derieri = require('derieri');
+const deri = new Derieri.Client({ context: false, islearning: true });
 
 client.on('ready', () => {
 
@@ -13,14 +14,9 @@ client.on('ready', () => {
 
 client.on('message', async message => {
     if(message.author.bot) return;
-
-    
-    if(!message.channel.name.includes('chat-bot')) return; //Mude o nome do canal para um que você queira utilizar a Alexa!
-    deri(message.content).then(response => {
-        message.channel.send(response); //Enviará a resposta da mensagem
+    if(!message.channel.name.includes('chat-bot')) return;
+    deri.reply(message.content).then(response => {
+        message.channel.send(response);
     });
-    })
-
-
 
 client.login('token') //Coloque o token do seu BOT
