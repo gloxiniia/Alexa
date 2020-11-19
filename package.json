@@ -1,7 +1,7 @@
 {
-  "name": "alexa",
-  "version": "2.3.1",
-  "description": "Minha inteligência artificial poxa",
+  "name": "alexa-bot",
+  "version": "1.2.0",
+  "description": "Alexa",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,8 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "alexa-bot-api": "^0.1.4",
-    "derieri": "0.0.1",
+    "derieri": "0.0.2",
     "discord.js": "^12.4.1"
   }
 }
