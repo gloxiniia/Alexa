@@ -10,3 +10,4 @@ Bem, é como se fosse uma inteligência artificial, ela responde suas mensagens,
 
 # Pessoas especiais
 Agradeço aos usuários: [JR](https://github.com/joaorceschini) & [yng](https://github.com/sir-young) por existirem, amigos!
+Agradeço também ao [Gloxinia#0001](https://github.com/gloxiniia) por criar a **API** [Derieri](https://github.com/gloxiniia/Derieri)!
