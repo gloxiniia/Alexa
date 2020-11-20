@@ -10,7 +10,7 @@ client.on('ready', () => {
 });
 
 client.on('message', async message => {
-    if(message.author.bot && !message.channel.name.includes('chat-bot')) return;
+    if(message.author.bot || !message.channel.name.includes('chat-bot')) return;
     return deri.reply(message.content, message.author).then(response => {
         return message.channel.send(response);
     });
